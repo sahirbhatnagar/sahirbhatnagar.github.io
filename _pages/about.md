@@ -1,8 +1,8 @@
 ---
 layout: about
+title: about
 permalink: /
-title: <strong>Sahir</strong> Rai Bhatnagar
-subtitle: <a href="">Assistant Professor, Biostatistics, McGill University</a>.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right  image: mehydepark_crop.png
