@@ -2,25 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <p>Biostatistician, Statistical Geneticist, Associate Director, Adjunct Professor</p>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me2023.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+ 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name's Sahir, and I'm a biostatistician who loves using numbers to solve tricky biological puzzles. I've done research and taught at McGill University, where I helped students out and got neck-deep in data. Afterwards, I worked at Deep Genomics as a Senior Research Scientist and helped identify new drug targets by analyzing whole-genome sequencing data. I'm proud to say that I wrote several R packages that have been used by over 200,000 people around the world – gotta love open-source solutions! When I'm developing new methodologies, I always make sure they're both scientifically sound and easy to understand. These days, I'm using my statistical genetics expertise to help develop new drugs in the biopharmaceutical industry.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+## Current Focus
+
+I wish to inform visitors that I have stepped away from academia and am no longer taking on graduate students. My current endeavors are focused on applying my expertise in statistical genetics to support drug programs in the biopharmaceutical industry. This shift marks a new chapter in my career, where I aim to bridge the gap between advanced statistical methodologies and practical applications in drug development.
+
+Thank you for visiting my website. I hope it serves as a window into my professional journey and contributions to the field of biostatistics and genetic research.

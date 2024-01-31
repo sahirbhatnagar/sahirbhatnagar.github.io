@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - sahirbhatnagar
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - sahirbhatnagar/casebase
+  - sahirbhatnagar/sail
+  - sahirbhatnagar/ggmix
+  - sahirbhatnagar/manhattanly
+  - sahirbhatnagar/rpkg
+  - archer-yang-lab/gglasso
