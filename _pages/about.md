@@ -9,18 +9,20 @@ profile:
   image: me2023.jpg
   image_circular: false # crops the image to make it circular
  
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name's Sahir, and I'm a biostatistician who loves using numbers to solve tricky biological puzzles. I've done research and taught at McGill University, where I helped students out and got neck-deep in data. Afterwards, I worked at Deep Genomics as a Senior Research Scientist and helped identify new drug targets by analyzing whole-genome sequencing data. I'm proud to say that I wrote several R packages that have been used by over 200,000 people around the world – gotta love open-source solutions! When I'm developing new methodologies, I always make sure they're both scientifically sound and easy to understand. These days, I'm using my statistical genetics expertise to help develop new drugs in the biopharmaceutical industry.
+Welcome to website. I am Sahir, a biostatistician who tries to use his training in statistics to answer questions that clinicians care about. My tenure as an Assistant Professor at McGill University, within the Departments of Epidemiology, Biostatistics, and Occupational Health, and Diagnostic Radiology was particularly fruitful. During this period, I developed new statistical methods for analyzing high-dimensional data and supervised 3 Masters, 5 PhD, and 4 undergraduate students, a remarkable achievement in a short span of time.
 
+A significant aspect of my contribution at McGill was the development of various R packages. These packages, which I authored while serving as an Assistant Professor, have been downloaded over 250,000 times, demonstrating their widespread impact and utility in the field of biostatistics and beyond. My research during this period has been featured in high-impact journals such as Nature Genetics, PLoS Medicine, Biometrics, Bioinformatics, Statistics and Computing, PLoS Genetics, Computational Statistics and Data Analysis, the Journal of the Royal Statistical Society Series C, and the Journal of Statistics and Data Science Education. My ability to secure funding from renowned agencies like NSERC and CIHR further exemplifies my commitment to impactful and innovative research.
 
+Despite these academic accomplishments, I transitioned to industry, driven by a desire to apply my expertise in environments that prioritize reproducibility and robust coding practices. At Deep Genomics, as a Senior Research Scientist, I continued my journey in genomic analysis, contributing significantly to the identification of new drug targets using whole genome sequencing data. 
 
-## Current Focus
+Currently, as the Associate Director at 5 Prime Sciences, I am instrumental in providing large pharmaceutical partners with human genetics evidence to de-risk their drug development pipelines. This role allows me to apply my statistical genetics skills to directly impact the advancement of medical science.
 
-I wish to inform visitors that I have stepped away from academia and am no longer taking on graduate students. My current endeavors are focused on applying my expertise in statistical genetics to support drug programs in the biopharmaceutical industry. This shift marks a new chapter in my career, where I aim to bridge the gap between advanced statistical methodologies and practical applications in drug development.
+I am keenly aware that the choice between academia and industry is a topic of significant debate and personal contemplation. If you are navigating this decision or simply wish to discuss the intricacies of this choice, I welcome you to reach out. Sharing perspectives and experiences can illuminate the path for those standing at this crucial crossroad.
 
-Thank you for visiting my website. I hope it serves as a window into my professional journey and contributions to the field of biostatistics and genetic research.
+While I am no longer taking on graduate students, I maintain a connection to academia as an Adjunct Professor at McGill.
