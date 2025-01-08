@@ -76,7 +76,7 @@ years: [2021, 2019, 2018, 2017, 2016, 2015, 2013]
     <strong>High-dimensional data analysis using penalized regression methods</strong>
     <p>McGill Summer School in Health Data Analytics. May 9, 2019.</p>
     <a href="https://github.com/sahirbhatnagar/mcgillHDA" target="_blank">Course Website</a><br>
-    <a href="Bhatnagar_penalized_regression_McGill_Health_data_analytics_2019_repaired.pdf" target="_blank">Slides</a>
+    <a href="pdf/Bhatnagar_penalized_regression_McGill_Health_data_analytics_2019_repaired.pdf" target="_blank">Slides</a>
   </li>
     <br>
   <li>
