@@ -45,7 +45,7 @@ years: [2021, 2019, 2018, 2017, 2016, 2015, 2013]
     <strong>Avoir une présence en ligne: Outils pour la diffusion rapide et reproductible de la recherche</strong>
     <p>R à Québec. May 14, 2019.</p>
     <a href="https://github.com/sahirbhatnagar/raqc" target="_blank">Course Website</a><br>
-    <a href="raqc-slides.pdf" target="_blank">Slides</a>
+    <a href="assets/pdf/raqc-slides.pdf" target="_blank">Slides</a>
   </li>
   <br>
   <li>
