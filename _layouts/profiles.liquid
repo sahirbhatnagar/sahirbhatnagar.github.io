@@ -1,27 +1,44 @@
 ---
 layout: page
 ---
+
+<figure>
+  <img src="/assets/img/team_2020.png" alt="Trulli" style="width:110%">
+  <figcaption>Holiday Party 2020 - Pandemic style.</figcaption>
+</figure>
+
+<br><br>
+
 <div class="post">
-  <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
+<article>
+  {% if page.profiles %}
+
+    <!-- PhD Students Section -->
+    <h2>PhD Students</h2>
+    {% for profile in page.profiles %}
+      {% if profile.category == 'PhD' %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = profile.image %}
+          {% else %}
+            {% assign profile_image_path = 'assets/img/default-profile.png' %}
           {% endif %}
+          {% if profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% include figure.liquid path = profile_image_path class = profile_image_class alt = "Profile photo" %}
           {% if profile.more_info %}
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
+          {% if profile.current_position %}
+            <div class="current-position">
+              <strong>Current Position:</strong> {{ profile.current_position }}
+            </div>
+          {% endif %}
         </div>
-
         <div class="clearfix">
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
@@ -30,7 +47,114 @@ layout: page
             {{ content }}
           {% endif %}
         </div>
-      {% endfor %}
-    {% endif %}
-  </article>
+        {% if profile.publications %}
+          <div class="publications">
+            <strong>Publications:</strong>
+            <ul>
+              {% for pub in profile.publications %}
+                <li>{{ pub }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <!-- Masters Students Section -->
+    <h2>Masters Students</h2>
+    {% for profile in page.profiles %}
+      {% if profile.category == 'Masters' %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+          {% else %}
+            {% assign profile_image_path = 'assets/img/default-profile.png' %}
+          {% endif %}
+          {% if profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% include figure.liquid path = profile_image_path class = profile_image_class alt = "Profile photo" %}
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
+          {% endif %}
+          {% if profile.current_position %}
+            <div class="current-position">
+              <strong>Current Position:</strong> {{ profile.current_position }}
+            </div>
+          {% endif %}
+        </div>
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+        {% if profile.publications %}
+          <div class="publications">
+            <strong>Publications:</strong>
+            <ul>
+              {% for pub in profile.publications %}
+                <li>{{ pub }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <!-- Undergraduate Students Section -->
+    <h2>Undergraduate Students</h2>
+    {% for profile in page.profiles %}
+      {% if profile.category == 'Undergrad' %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+          {% else %}
+            {% assign profile_image_path = 'assets/img/default-profile.png' %}
+          {% endif %}
+          {% if profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% include figure.liquid path = profile_image_path class = profile_image_class alt = "Profile photo" %}
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
+          {% endif %}
+          {% if profile.current_position %}
+            <div class="current-position">
+              <strong>Current Position:</strong> {{ profile.current_position }}
+            </div>
+          {% endif %}
+        </div>
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+        {% if profile.publications %}
+          <div class="publications">
+            <strong>Publications:</strong>
+            <ul>
+              {% for pub in profile.publications %}
+                <li>{{ pub }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+  {% endif %}
+</article>
+
 </div>
