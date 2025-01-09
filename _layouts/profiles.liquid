@@ -4,6 +4,14 @@ layout: page
 
 <style>
   /* General Image Styling */
+
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two images per row */
+    gap: 20px; /* Space between images */
+    padding: 10px;
+  }
+
   .image-gallery img {
     max-width: 200px;
     max-height: 150px;
@@ -14,7 +22,14 @@ layout: page
   }
 
   .image-gallery img:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.15); /* Slight zoom on hover */
+  }
+
+  .image-gallery figcaption {
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
   }
 
   /* Lightbox Background */
@@ -52,11 +67,46 @@ layout: page
 </style>
 
 <div class="image-gallery">
+  <figure>
+  <img src="/assets/img/jesse-user.png" alt="Jesse useR talk" onclick="openLightbox(this)">
+  <figcaption>Jesse Islam presenting at useR! in Toulouse, France</figcaption>
+  </figure>
+  <figure>
   <img src="/assets/img/team_2020.png" alt="Holiday Party 2020" onclick="openLightbox(this)">
-  <figcaption>Holiday Party 2020 - Pandemic style.</figcaption>
-  
-  <img src="/assets/img/group2022.jpg" alt="Enjoying Montreal Terrace 2022" onclick="openLightbox(this)">
-  <figcaption>Enjoying a typical Montreal terrasse 2022.</figcaption>
+  <figcaption>Holiday Party - Pandemic style.</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/group2022.jpg" alt="Enjoying Montreal Terrace" onclick="openLightbox(this)">
+  <figcaption>Enjoying a typical Montreal terrasse.</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/banff.jpg" alt="Banff" onclick="openLightbox(this)">
+  <figcaption>My academic brothers and sister at the International Chinese Statistical Association Symposium in Banff. Sahir, Kaiqiong, Kevin and Maxime are all former PhD students of Dr. Celia Greenwood.</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/chris_thesis.jpeg" alt="Zeyu Bian's thesis defense" onclick="openLightbox(this)">
+  <figcaption>Congrats to Zeyu Bian on a successful PhD thesis defense!</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/zeyugrad.jpg" alt="Zeyu Bian's graduation ceremony" onclick="openLightbox(this)">
+  <figcaption>Zeyu Bian's graduation ceremony with his proud supervisor.</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/sahiryi.jpg" alt="Sahir Yi" onclick="openLightbox(this)">
+  <figcaption>Sahir and Archer Yang at Northwestern Polytechnical University in Xi'an, Shaanxi, China.</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/npu.jpg" alt="Sahir Yi" onclick="openLightbox(this)">
+  <figcaption>Students participating in our 1 week Data Science course at Northwestern Polytechnical University in Xi'an, Shaanxi, China.</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/julienthesis.jpeg" alt="Julien St-Pierre's thesis defense" onclick="openLightbox(this)">
+  <figcaption>Congrats to Julien St-Pierre on a successful PhD thesis defense!</figcaption>
+  </figure>
+  <figure>
+  <img src="/assets/img/nucleate.jpeg" alt="Nucleate Canada" onclick="openLightbox(this)">
+  <figcaption>AI in Biotech panel session hosted by Nucleate Canada.</figcaption>
+  </figure>
 </div>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">
@@ -134,7 +184,7 @@ layout: page
         {% endif %}
       {% endif %}
     {% endfor %}
-
+<br><br>
     <!-- Masters Students Section -->
     <h2>Masters Students</h2>
     {% for profile in page.profiles %}
@@ -181,7 +231,7 @@ layout: page
         {% endif %}
       {% endif %}
     {% endfor %}
-
+<br><br>
     <!-- Undergraduate Students Section -->
     <h2>Undergraduate Students</h2>
     {% for profile in page.profiles %}
