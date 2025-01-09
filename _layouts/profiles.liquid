@@ -2,10 +2,85 @@
 layout: page
 ---
 
-<figure>
-  <img src="/assets/img/team_2020.png" alt="Trulli" style="width:110%">
+<style>
+  /* General Image Styling */
+  .image-gallery img {
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: pointer; /* Indicate that the image is clickable */
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .image-gallery img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+
+  /* Lightbox Background */
+  .lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Lightbox Image */
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Close Button */
+  .lightbox:after {
+    content: '✕'; /* Close icon */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+</style>
+
+<div class="image-gallery">
+  <img src="/assets/img/team_2020.png" alt="Holiday Party 2020" onclick="openLightbox(this)">
   <figcaption>Holiday Party 2020 - Pandemic style.</figcaption>
-</figure>
+  
+  <img src="/assets/img/group2022.jpg" alt="Enjoying Montreal Terrace 2022" onclick="openLightbox(this)">
+  <figcaption>Enjoying a typical Montreal terrasse 2022.</figcaption>
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+  // Open the lightbox
+  function openLightbox(image) {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    lightboxImg.src = image.src; // Set lightbox image to the clicked image
+    lightbox.style.display = 'flex'; // Show the lightbox
+  }
+
+  // Close the lightbox
+  function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    lightbox.style.display = 'none'; // Hide the lightbox
+  }
+</script>
+
+
+
 
 <br><br>
 

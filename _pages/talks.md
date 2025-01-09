@@ -217,7 +217,7 @@ nav_order: 6
   <li>
     <strong>McGill University</strong>
     <p>Environmental Epi Seminar</p>
-    <a href="https://github.com/sahirbhatnagar/cleandata" target="_blank">Data Organization in Spreadsheets and Tidy Data</a>
+    <a href="/assets/pdf/spreadsheets_tidy_data_env_epi_feb2019.pdf" target="_blank">Data Organization in Spreadsheets and Tidy Data</a>
   </li>
 </ul>
 <br>

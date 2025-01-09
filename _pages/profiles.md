@@ -10,13 +10,12 @@ profiles:
   # PhD Students
   - align: left
     image: anthony.jpg
-    content: about_einstein.md
+    content: about_anthony.md
     image_circular: true
     category: PhD
     publications:
-      - "Jones B, Senior Author. Title of Paper 3. Journal Name, 2020."
+      - "Bozzo A, Hollingsworth A, Chatterjee S, Apte A, Deng J, Sun S, Tap W, Aoude A, Bhatnagar S, Healey JH. A multimodal neural network with gradient blending improves predictions of survival and metastasis in sarcoma. npj Precision Oncology 2024 Sep 5;8(1):188.  <a href='https://doi.org/10.1038/s41525-024-00366-w' target='_blank'>"  
     more_info: >
-      <p>2022 – Ph.D. Experimental Surgery</p>
 
   - align: right
     image: team_julien.jpg
