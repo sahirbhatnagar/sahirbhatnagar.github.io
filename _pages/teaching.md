@@ -5,14 +5,70 @@ title: teaching
 description: Materials for full term courses, short courses and tutorials that I've taught or created.
 nav: true
 nav_order: 5
-years: [2021, 2019, 2018, 2017, 2016, 2015, 2013]
 ---
 
+<div class="teaching-content">
+  <style>
+    /* Teaching Page Styles */
+    .teaching-content ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-{:.no_toc}
+    .teaching-content ul li {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
 
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
+    .teaching-content ul li strong {
+      font-size: 16px;
+      color: #0056b3;
+    }
+
+    .teaching-content ul li p {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .teaching-content ul li a {
+      color: #0056b3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .teaching-content ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .teaching-content ul li a + a {
+      display: inline-block;
+      margin-top: 5px;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .teaching-content ul li {
+        padding: 10px;
+      }
+
+      .teaching-content ul li strong {
+        font-size: 14px;
+      }
+
+      .teaching-content ul li p {
+        font-size: 12px;
+      }
+
+      .teaching-content ul li a {
+        font-size: 13px;
+      }
+    }
+  </style>
 
 
 <h2>Graduate Courses</h2>
@@ -94,10 +150,54 @@ years: [2021, 2019, 2018, 2017, 2016, 2015, 2013]
   <li>
     <strong>Data Organization in Spreadsheets and Tidy Data</strong>
     <p>Environmental Epidemiology Research Group, McGill University. February 27, 2019.</p>
-    <a href="/assets/pdf/cart_animation.pdf" target="_blank">Slides</a>
+    <a href="/assets/pdf/spreadsheets_tidy_data_env_epi_feb2019.pdf" target="_blank">Slides</a>
   </li>
+  <br>
+<li>
+  <strong>Loops and Simulations in R</strong>
+  <p>McGill University - Department of Epidemiology, Biostatistics and Occupational Health. Sponsored by the Epidemiology, Biostatistics and Occupational Health Student Society.</p>
+  <a href="http://sahirbhatnagar.com/biosR/" target="_blank">Course Website</a>
+</li>
+<br>
+<li>
+  <strong>Atelier sur le logiciel R</strong>
+  <p>Université de Montréal - GERAD: Groupe d'études et de recherche en analyse des décisions.</p>
+  <a href="http://www.slideshare.net/sahirbhatnagar/atelier-rgerad" target="_blank">Slides</a><br>
+  <a href="https://github.com/sahirbhatnagar/atelier-R-GERAD" target="_blank">Materials on GitHub</a>
+</li>
+<br>
+<li>
+  <strong>Reproducible Research: An introduction to knitr</strong>
+  <p>McGill University - Department of Epidemiology, Biostatistics and Occupational Health. Sponsored by the CRM Statistics Laboratory and the Montreal Biostatistics Seminar Series.</p>
+  <a href="http://www.slideshare.net/sahirbhatnagar/mcgill-knitr" target="_blank">Slides</a><br>
+  <a href="https://github.com/sahirbhatnagar/knitr-tutorial" target="_blank">Materials on GitHub</a>
+</li>
 </ul>
+</div>
+
+<!--
+## Workshops
+
+***
+
+### 2016
+
+* **McGill University**  _Department of Epidemiology, Biostatistics and Occupational Health (Sponsored by the Epidemiology, Biostatistics and Occupational Health Student Society)_  
+[Loops and Simulations in `R`](http://sahirbhatnagar.com/biosR/) 
 
 
+<br>
 
 
+### 2015
+
+* **Universit&eacute; de Montr&eacute;al**  _GERAD: Groupe d'&eacute;tudes et de recherche en analyse des d&eacute;cisions_  
+[Atelier sur le logiciel R](http://www.slideshare.net/sahirbhatnagar/atelier-rgerad)  
+[mat&eacute;riaux disponibles sur GitHub](https://github.com/sahirbhatnagar/atelier-R-GERAD)
+
+* **McGill University**  _Department of Epidemiology, Biostatistics and Occupational Health (Sponsored by the CRM Statistics Laboratory and the Montreal Biostatistics Seminar Series)_  
+[Reproducible Research: An introduction to `knitr`](http://www.slideshare.net/sahirbhatnagar/mcgill-knitr)  
+[contents available on GitHub](https://github.com/sahirbhatnagar/knitr-tutorial)
+
+<br><br>
+-->
