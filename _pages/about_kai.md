@@ -1,0 +1,2 @@
+Dr. Kai Yang obtained his PhD in Biostatistics from McGill. His research mainly focuses on computational methods for high-dimensional nonconvex sparse learning, which involves the development and application of continuous optimization methods on objectives from high-dimensional statistical machine learning models. Currently, Kai is interested in accelerated line search methods. He was jointly supervised by Dr. Masoud Asgharian and Dr. Sahir Bhatnagar. 
+

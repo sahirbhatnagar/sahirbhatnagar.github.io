@@ -1,0 +1,1 @@
+[Peter Her](https://www.linkedin.com/in/peter-her/) graduated with a Bachelor of Science in Pharmacology and Therapeutics in 2021. Peter has demonstrated exceptional skills in quantitative analysis, which form the foundation of his academic and research interests.
