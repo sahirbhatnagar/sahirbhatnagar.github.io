@@ -8,7 +8,7 @@ nav_order: 3
 
 profiles:
   # PhD Students
-  - align: right
+  - align: left
     image: anthony.jpg
     content: about_einstein.md
     image_circular: true
