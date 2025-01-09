@@ -1,0 +1,1 @@
+Janet Fu earned her Master of Science in Biostatistics from 2020 to 2022 at McGill University. Her research, co-supervised by Dr. Jay Brophy, focused on Bayesian regularisation methods.

@@ -1,0 +1,1 @@
+[Mohan Zhao](https://www.linkedin.com/in/mohan-zhao-479a2b191/) earned her Bachelor of Science in Mathematics and Statistics in 2021. Her academic work reflects a strong foundation in quantitative sciences, positioning her for impactful contributions in statistical research and applications.

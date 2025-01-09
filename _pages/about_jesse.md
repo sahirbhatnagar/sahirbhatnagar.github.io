@@ -1,0 +1,1 @@
+[Jesse Islam](https://github.com/Jesse-Islam) is a PhD student in Quantitative Life Sciences co-supervised by Dr. Rob Sladek, Dr. Mathieu Blanchette, and Dr. Sahir Bhatnagar. His research interest include survival analysis, machine learning, and gene perturbation networks. 
