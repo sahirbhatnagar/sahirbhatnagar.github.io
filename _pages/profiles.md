@@ -25,7 +25,7 @@ profiles:
     category: PhD
     more_info: >
       <p>2019 – Ph.D. Biostatistics</p>
-      <p>(Co-supervisor: Karim Oualkacha)</p>
+      <p>(Co-supervisor: Karim Oualkacha )</p>
       <p>CRM StatLab Graduate Award ($500)</p>
 
   - align: left
