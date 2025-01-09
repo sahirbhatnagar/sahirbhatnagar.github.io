@@ -14,7 +14,7 @@ profiles:
     image_circular: true
     category: PhD
     publications:
-      - "Bozzo A, Hollingsworth A, Chatterjee S, Apte A, Deng J, Sun S, Tap W, Aoude A, Bhatnagar S, Healey JH. A multimodal neural network with gradient blending improves predictions of survival and metastasis in sarcoma. npj Precision Oncology 2024 Sep 5;8(1):188.  <a href='https://doi.org/10.1038/s41525-024-00366-w' target='_blank'>"  
+      - "Bozzo A, Hollingsworth A, Chatterjee S, Apte A, Deng J, Sun S, Tap W, Aoude A, Bhatnagar S, Healey JH. A multimodal neural network with gradient blending improves predictions of survival and metastasis in sarcoma. npj Precision Oncology 2024 Sep 5;8(1):188."  
     more_info: >
 
   - align: right
