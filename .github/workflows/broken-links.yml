@@ -45,4 +45,4 @@ jobs:
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _pages/talks.md --exclude-path assets/pdf/imputeepigenome.html --verbose --no-progress './**/*.md' './**/*.html'
+          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path INSTALL.md --exclude-path _pages/talks.md --exclude-path assets/pdf/imputeepigenome.html --verbose --no-progress './**/*.md' './**/*.html'
