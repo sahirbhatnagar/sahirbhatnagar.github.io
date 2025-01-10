@@ -16,7 +16,8 @@ profiles:
     category: PhD
     publications: 
       - "St-Pierre J, Oualkacha K, Rai Bhatnagar SR (2024). <a href='https://doi.org/10.1177/09622802241293768' target='_blank'>Hierarchical selection of genetic and gene by environment interaction effects in high-dimensional mixed models</a>. <em>Statistical Methods in Medical Research</em>."
-      - "St-Pierre J, Oualkacha K, Bhatnagar SR (2023). <a href='https://doi.org/10.1093/bioinformatics/btad063' target='_blank'>Efficient penalized generalized linear mixed models for variable selection and genetic risk prediction in high-dimensional data</a>. <em>Bioinformatics</em>."
+      - "St-Pierre J, Oualkacha K, Bhatnagar SR (2023). <a href='https://doi.org/10.1093/bioinformatics/btad063' target='_blank'>Efficient penalized generalized linear mixed models for variable selection and genetic risk prediction in high-dimensional data</a>. <em>Bioinformatics</em>.
+      <a href='https://github.com/julstpierre/PenalizedGLMM' target='_blank'><br>[Julia package]</a>."
       - "St.-Pierre J, Zhang X, Lu T, Jiang L, Loffree X, Wang L, Bhatnagar SR, Greenwood CMT (2022). <a href='https://doi.org/10.3389/fgene.2022.900595' target='_blank'>Considering strategies for SNP selection in genetic and polygenic risk scores</a>. <em>Frontiers in Genetics</em>."
     more_info: >
 
