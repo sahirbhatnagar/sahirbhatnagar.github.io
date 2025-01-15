@@ -1,3 +1,12 @@
+# To compile the site locally and preview
+
+```bash
+export PATH="$HOME/.rbenv/bin:$PATH"                                                  
+eval "$(rbenv init -)"
+bundle exec jekyll serve    
+```
+
+
 # al-folio
 
 <div align="center">
