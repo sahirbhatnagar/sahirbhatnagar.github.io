@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Machine Learning for survival analysis
+description:  Variable selection and absolute risk estimation for time-to-event outcomes using machine learning
+img: assets/img/nn.png
 importance: 3
 category: work
 ---
