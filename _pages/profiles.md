@@ -5,9 +5,6 @@ title: people
 description: Members of the lab
 nav: true
 nav_order: 3
-toc:
-  sidebar: left
-
 profiles:
   # PhD Students
 
@@ -15,6 +12,7 @@ profiles:
     image: team_julien.jpg
     content: about_julien.md
     image_circular: true
+    current_position: Senior Analyst, Statlog Inc. 
     category: PhD
     publications: 
       - "St-Pierre J, Oualkacha K, Rai Bhatnagar SR (2024). <a href='https://doi.org/10.1177/09622802241293768' target='_blank'>Hierarchical selection of genetic and gene by environment interaction effects in high-dimensional mixed models</a>. <em>Statistical Methods in Medical Research</em>."
