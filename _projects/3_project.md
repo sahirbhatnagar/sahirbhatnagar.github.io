@@ -58,7 +58,7 @@ Beyond standard tabular data, imaging has become integral to many clinical progn
 </div>
 
 <div class="caption">
-    Figure 3. Architecture of our multimodal neural network model. A deep neural network (A) will interpret the 11 clinical variables and a 2-channel convolutional neural network (DenseNet-121) analyzes the MRI input (B).
+    Figure 3. Architecture of our multimodal neural network model. A deep neural network (A) will interpret the 11 clinical variables and a 2-channel convolutional neural network (DenseNet-121) analyzes the MRI input (B). Source: {% cite bozzo2024multimodal %}.
 </div>
 
 

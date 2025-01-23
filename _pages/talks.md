@@ -262,6 +262,14 @@ nav_order: 6
 <h2>2016</h2>
 <ul>
   <li>
+    <strong>Plotcon</strong>
+    <p>New York City (Invited)</p>
+    <a href="https://www.youtube.com/watch?v=sawf9fnbsOA" target="_blank">Genomic Visualisations for Biologists in R</a><br>
+    <a href="https://www.youtube.com/watch?v=sawf9fnbsOA" target="_blank">
+      Video
+    </a>
+  </li>
+  <li>
     <strong>Montreal Neurological Institute</strong>
     <p>Ludmer Centre for Neuroinformatics and Mental Health (Invited)</p>
     <a href="http://www.slideshare.net/sahirbhatnagar/methods-for-high-dimensional-interactions" target="_blank">Methods for High Dimensional Interactions</a>
