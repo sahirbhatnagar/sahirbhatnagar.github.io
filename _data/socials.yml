@@ -4,7 +4,8 @@
 
 github_username: sahirbhatnagar # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: syfi_24 # your X handle
+x_username: # your X handle
+bluesky_url: syfi24.bsky.social # your bluesky URL
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: sahir-bhatnagar-0b505674 # your LinkedIn user name
 telegram_username: # your Telegram user name
